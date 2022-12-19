@@ -17,6 +17,17 @@ export const PROJECTS: ProjectType[] = [
     },
 
     {
+        id: 2,
+        title: 'Antools',
+        description: 'df',
+        technologies:
+            'React, hooks, react-router, axios,AJAX, БЭМ, SASS, Adaptive',
+        toCode: 'https://github.com/EvgenChip/antools',
+        toViewing: 'https://evgenchip.github.io/antools/#',
+        backgroundColor: '',
+    },
+
+    {
         id: 4,
         title: 'Card Product',
         description: '',
