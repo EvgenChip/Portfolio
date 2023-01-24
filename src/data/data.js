@@ -4,6 +4,16 @@ import linkedin from "../asetse/image/icons/in.svg";
 
 export const PROJECTS = [
   {
+    id: 1,
+    title: "Weather App",
+    description: "df",
+    technologies:
+      "React, typescript, hooks, redux, redux-thunk, redux-actions, reselect, redux-persist, adaptive, axios, styled-components",
+    toCode: "https://github.com/EvgenChip/weathher",
+    toViewing: "https://evgenchip.github.io/weathher/",
+    backgroundColor: "blue-red",
+  },
+  {
     id: 2,
     title: "Animation Chart SVG",
     description: "df",
@@ -11,7 +21,7 @@ export const PROJECTS = [
       "Animation,SVG,Perfect Pixel, Все элементы диаграммы реализованны на SVG и анимированы.  ",
     toCode: "https://github.com/EvgenChip/AnimatedChartSVG",
     toViewing: "https://evgenchip.github.io/animation-chart/",
-    backgroundColor: "blue-red",
+    backgroundColor: "white",
   },
 
   {
@@ -62,6 +72,16 @@ export const PROJECTS = [
     toCode: "https://github.com/EvgenChip/FinKit",
     toViewing: "https://evgenchip.github.io/finKit/",
     backgroundColor: "yellow",
+  },
+  {
+    id: 10,
+    title: "ToDo Prof",
+    description: "",
+    technologies:
+      "React, redux, react-router, redux-thunk, axios, material-ui, redux-form",
+    toCode: "https://github.com/EvgenChip/toDoProfessional",
+    toViewing: "",
+    backgroundColor: "graph",
   },
 
   {
