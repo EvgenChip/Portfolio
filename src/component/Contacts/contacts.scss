@@ -1,0 +1,13 @@
+.contacts {
+  padding-left: 20px;
+  &__icons {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 10px;
+
+  }
+  &__title{
+    color: #a9ef32;
+
+  }
+}

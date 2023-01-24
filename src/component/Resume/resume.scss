@@ -1,0 +1,134 @@
+.resume {
+  //   height: 100vh;
+  padding-top: 150px;
+  background: black;
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1400px;
+  }
+  &__inner {
+    width: 100%;
+    display: flex;
+    gap: 108px;
+  }
+  &__description {
+    width: 50%;
+  }
+
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__skill {
+    margin: 5px 5px;
+    padding: 13px 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+    border: 1.35px solid #a9ef32;
+  }
+
+  &__experience {
+    height: 50%;
+    padding-top: 38px;
+    padding-left: 52px;
+    padding-right: 5px;
+    width: 50%;
+    border-left: 1.35px solid #ffffff;
+
+    ul {
+      padding-bottom: 27px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 26px;
+      color: #292851;
+    }
+    li {
+      color: #545353;
+    }
+  }
+  &__title_experience {
+    position: relative;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+    &::before {
+      content: url(../../asetse/image/icons/ellipseIcon.svg);
+      position: absolute;
+      margin-left: -67px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .resume {
+      &__title {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      &__text {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &__skill {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &__title_experience {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &__experience {
+        ul {
+          font-size: 16px;
+          line-height: 20px;
+        }
+        li {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  @media (max-width: 948px) {
+    .resume {
+      &__title {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      &__inner {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media (max-width: 948px) {
+  }
+}

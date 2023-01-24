@@ -1,0 +1,197 @@
+.cards {
+  background: black;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 100px;
+    color: #ffffff;
+  }
+
+  &__inner {
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  }
+  .container{
+    padding: 0 95px;
+  }
+
+
+  .card__wrap {
+    position: relative;
+    transition: transform 0.3s;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+
+  .blue-red {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/blue-red.svg);
+  }
+  .grey {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/grey.svg);
+  }
+  .orange {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/orange.svg);
+  }
+  .yellow {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/yellow.svg);
+  }
+  .white {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/white.svg);
+  }
+
+  .blue {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/blue.svg);
+  }
+  .graph {
+    padding: 40px 27px;
+    background-image: url(../../asetse/image/background-card/human.svg);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__info {
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(3px);
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      padding-top: 35%;
+      &_wrap {
+        display: grid;
+
+        gap: 15px;
+        margin: 0 auto;
+        padding: 0px 100px;
+
+        a {
+          padding: 20px 10px 20px 10px;
+          text-decoration: none;
+          background: #ffffff;
+          border-radius: 30px;
+          color: #000000;
+          &:hover {
+            background: #a9ef32;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+
+    &__title {
+      padding-top: 30px;
+      height: 89px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 31.5325px;
+      line-height: 38px;
+      text-align: center;
+      background: #000000;
+      color: #ffffff;
+    }
+    &__description {
+      padding-top: 85px;
+      height: 175px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20.7553px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      background: #000000;
+    }
+  }
+
+  &__button-load {
+    padding-top: 50px;
+    padding-left: 42%;
+  }
+
+  .button {
+    background: transparent;
+    padding: 25px 50px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    &:hover {
+      cursor: pointer;
+      border: solid 1px #a9ef32;
+      color: #a9ef32;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .card {
+      &__title {
+        font-size: 24px;
+        line-height: 29px;
+        height: 69px;
+        padding-top: 30px;
+      }
+      &__description {
+        font-size: 16px;
+        line-height: 20px;
+        height: 125px;
+        padding-top: 70px;
+      }
+    }
+  }
+  @media (max-width: 967px) {
+    .cards__button-load{
+        padding-left: 35%;
+    }
+    .cards__inner {
+      display: grid;
+      grid-template-columns: 49% 49%;
+    }
+    .card {
+      &__title {
+        font-size: 24px;
+        line-height: 29px;
+        height: 89px;
+        padding-top: 30px;
+      }
+      &__description {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 85px;
+        height: 175px;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    .cards__button-load{
+        padding-left: 30%;
+    }
+    .cards__inner {
+      padding: 0px 10px;
+      display: inline;
+    }
+  }
+}
