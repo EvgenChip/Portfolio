@@ -194,4 +194,13 @@
       display: inline;
     }
   }
+  @media (max-width: 470px) {
+    .cards__button-load{
+        padding-left: 21%;
+    }
+    .cards__inner {
+      padding: 0px 10px;
+      display: inline;
+    }
+  }
 }

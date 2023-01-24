@@ -69,6 +69,7 @@
       color: #292851;
     }
     li {
+        padding-top: 10px;
       color: #545353;
     }
   }
@@ -130,5 +131,11 @@
   }
 
   @media (max-width: 948px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        width: initial;
+        max-width: 1400px;
+      }
   }
 }

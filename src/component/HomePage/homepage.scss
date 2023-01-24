@@ -99,7 +99,12 @@
     }
   }
   @media (max-width: 537px) {
-
+    .home-page {
+      &__inner {
+        padding-top: 352px;
+        padding-left: 35px;
+      }
+    }
     .home-page__title {
       font-size: 30px;
       line-height: 60px;
@@ -110,7 +115,6 @@
     }
   }
   @media (max-width: 370px) {
-
     .home-page__title {
       font-size: 22px;
       line-height: 66px;
