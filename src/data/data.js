@@ -33,9 +33,18 @@ export const PROJECTS = [
     toViewing: "https://evgenchip.github.io/antools/#",
     backgroundColor: "grey",
   },
-
   {
     id: 4,
+    title: "DogeCoin",
+    description: "df",
+    technologies: "React, hooks, react-router, axios,AJAX, БЭМ, SASS, Adaptive",
+    toCode: "https://github.com/EvgenChip/DogeCoin",
+    toViewing: "https://evgenchip.github.io/DogeCoin/",
+    backgroundColor: "blue",
+  },
+
+  {
+    id: 5,
     title: "Card Product",
     description: "",
     technologies: "React, hooks, react-router, axios,AJAX, metics, NodeMail.",
@@ -44,7 +53,7 @@ export const PROJECTS = [
     backgroundColor: "orange",
   },
   {
-    id: 5,
+    id: 6,
     title: "Sale Oil",
     description: "",
     technologies: "React, CSS, adaptive ",
@@ -54,7 +63,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Gantt Chart",
     description: "",
     technologies: `React, typescript, redux, react-router, redux-thunk,
@@ -65,7 +74,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "FinKit",
     description: "",
     technologies: "HTML, CSS,adaptive",
@@ -74,7 +83,7 @@ export const PROJECTS = [
     backgroundColor: "yellow",
   },
   {
-    id: 10,
+    id: 9,
     title: "ToDo Prof",
     description: "",
     technologies:
@@ -85,7 +94,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Social networking site",
     description: "",
     technologies:
@@ -95,7 +104,7 @@ export const PROJECTS = [
     backgroundColor: "blue",
   },
   {
-    id: 9,
+    id: 11,
     title: "Form",
     description: "",
     technologies: "HTML, CSS, Bulma ",
