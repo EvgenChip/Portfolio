@@ -31,32 +31,44 @@ export const Resume = () => {
           </div>
           <div className="resume__experience">
             <div className="resume__title_experience">
-              October 2021 - February 2022
+              January 2021 - June 2021
             </div>
             <ul>
-              Фриланс, верстка сайтов для бизнеса под ключ.
-              <br />
-              Частная практика.
-              <br /> Разработка сайтов для game sector
+              Участие в разработке конструктора сайтов - аналога wordPress.
+              Разработка виджетов для no-codding. Поддержание существующего
+              функционала, создание, доработка и внедрение новых компонентов для
+              готовых модулей.
               <li>HTML, Flex, Grid, SVG-Animation, БЭМ, Pixel Perfect </li>
               <li>CSS, SCSS, Bootstrap </li>
               <li>Gulp, Git</li>
             </ul>
             <div className="resume__title_experience">
-              February 2022 - July 2022
+              June 2021 - July 2022
             </div>
             <ul>
-              Участие в разработке конструктора сайтов аналог word press.
-              Поддержка существующего функционала, внедрение новых фич ,фикc
-              багов.
+              Разработка личного кабинета для пользователей "мастер - данные"
+              разработка и внедрение новых компонентов интерфейса
               <li>HTML, БЭМ, Pixel, Perfect</li>
               <li>CSS, SCSS, StyledComponents</li>
               <li>JS, React, Redux, Hooks, Axios</li>
             </ul>
-            <div className="resume__title_experience">June 2022 - Current</div>
+            <div className="resume__title_experience">
+              June 2022 - January 2023
+            </div>
             <ul>
               Участие в разработке площадки-стартапа для торговли crypto
               products
+              <li>HTML </li>
+              <li>CSS, SCSS, ModuleCss</li>
+              <li>TypeScript, React, Redux, Hooks, Axios, ReactRouter </li>
+            </ul>
+            <div className="resume__title_experience">
+              January 2023 - Current.
+            </div>
+            <ul>
+              Доработка создание кастомных модулей, рефакторинг кодовой базы.
+              Кроссбраузерная верстка.
+              <li>Shopify </li>
               <li>HTML </li>
               <li>CSS, SCSS, ModuleCss</li>
               <li>TypeScript, React, Redux, Hooks, Axios, ReactRouter </li>

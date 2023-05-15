@@ -8,6 +8,7 @@ import { Cards } from "./component/Cards/Cards";
 import { Contacts } from "./component/Contacts/Contacts";
 
 function App() {
+
   return (
     <div>
       <HomePage />
